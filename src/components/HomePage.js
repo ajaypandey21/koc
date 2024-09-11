@@ -188,43 +188,43 @@ const HomePage = () => {
   const photos = [
     {
       src: "https://picsum.photos/id/1016/1080/720",
-      name: "Forest",
+      name: "Mountain",
     },
     {
       src: "https://picsum.photos/id/1020/1080/720",
-      name: "Mountains",
+      name: "Squirrel",
     },
     {
       src: "https://picsum.photos/id/1024/1080/720",
-      name: "Beach",
+      name: "Eagle",
     },
     {
       src: "https://picsum.photos/id/1032/1080/720",
-      name: "City",
-    },
-    {
-      src: "https://picsum.photos/id/1033/1080/720",
-      name: "Desert",
-    },
-    {
-      src: "https://picsum.photos/id/1036/1080/720",
-      name: "River",
-    },
-    {
-      src: "https://picsum.photos/id/1040/1080/720",
       name: "Lava",
     },
     {
-      src: "https://picsum.photos/id/1041/1080/720",
+      src: "https://picsum.photos/id/1033/1080/720",
+      name: "City",
+    },
+    {
+      src: "https://picsum.photos/id/1036/1080/720",
       name: "Snow",
     },
     {
+      src: "https://picsum.photos/id/1040/1080/720",
+      name: "Paradise",
+    },
+    {
+      src: "https://picsum.photos/id/1041/1080/720",
+      name: "Water",
+    },
+    {
       src: "https://picsum.photos/id/1045/1080/720",
-      name: "Swamp",
+      name: "Cloud",
     },
     {
       src: "https://picsum.photos/id/1051/1080/720",
-      name: "Rainforest",
+      name: "River",
     },
   ];
 
