@@ -298,10 +298,13 @@ const HomePage = () => {
           >
             <button
               onClick={toggleDropdown}
-              className="bg-white flex items-center p-[10px] rounded-md shadow-lg "
+              className="bg-white flex items-center p-[10px]  rounded-md shadow-lg "
             >
-              <span className="mr-2">{selectedOption.icon}</span>
-              <span className="hidden sm:inline">{selectedOption.name}</span>
+              <span className="sm:mr-2">{selectedOption.icon}</span>
+              <span className="hidden sm:inline-block">
+                {selectedOption.name}
+              </span>
+
               <ChevronDown className="ml-2" />
             </button>
             {isDropdownOpen && (

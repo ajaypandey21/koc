@@ -84,7 +84,7 @@ const Navbar = () => {
               alt="Company Logo"
               className="h-10 w-auto"
             />
-            <p className="text-sm sm:block ml-2 sm:text-lg font-medium">
+            <p className="mr-2 text-sm sm:block sm:ml-2 sm:text-lg font-medium">
               KOC Media & Library System
             </p>
 
@@ -116,7 +116,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="flex items-center space-x-4 sm:space-x-7 sm:mr-6">
+        <div className="flex items-center space-x-2 sm:space-x-7 sm:mr-6">
           <Heart className="w-6 h-6 text-gray-600" />
           <ShoppingCart className="w-6 h-6 text-gray-600" />
           <Menu
